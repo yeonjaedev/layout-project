@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+import {Link, Outlet} from 'react-router-dom';
 import Top from '../components/Top';
 import Menu from '../components/Menu';
 import Content from '../components/Content';
@@ -8,7 +8,7 @@ const Main = () => {
         <>
             <Top />
             <Menu />
-            <Content />
+            <Outlet />
         </>
     );
 };
