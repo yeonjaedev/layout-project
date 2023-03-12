@@ -1,0 +1,30 @@
+html,
+body {
+    margin: 0px;
+    height: 100%;
+}
+#root {
+    height: 100%;
+}
+.top {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+.topText {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+}
+
+.menu {
+    width: 100px;
+    height: calc(100% - 70px);
+    border-right: 1px solid black;
+    padding: 10px;
+}
+.menuList {
+    margin-bottom: 20px;
+}
